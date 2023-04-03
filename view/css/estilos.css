@@ -1,0 +1,78 @@
+.panel{
+    max-width: 1700px;
+    margin: auto;
+    background: silver;
+    padding: 1rem;
+}
+body{
+    background-image: url("/view/img/fondoBody.jpg");
+    background-size: 100%;
+}
+.text-centrado{
+    text-align: center;
+    color: aquamarine;
+}
+.dropdown-item .spanMenu {
+    transition: color 0.3s ease;
+}
+
+.dropdown-item:hover .spanMenu {
+    color: red;
+}
+a.claseHover:hover {
+    color:#008000;
+}
+
+h1{
+    text-align: center;
+}
+.toolbar{
+    display: flex;
+}
+.wellcome{
+    width: 50%;
+}
+
+.trolley{
+    width: 50%;
+    text-align: end;
+}
+div{
+    padding-bottom: 3px;
+}
+.botonesLogin{
+    background-color: green;
+}
+
+/*#login-container-img{*/
+/*    background-image: url("/view/img/fondologin.jpg");*/
+/*}*/
+
+#logoWellcome{
+    max-width: 100px;
+}
+
+#imagePerfil{
+    max-width: 100px;
+}
+
+.spanMenu{
+    color: #ed4826  ;
+}
+
+#enlaceRegistro{
+    color: black;
+}
+
+.error{
+    font-size: 0.9rem;
+}
+
+#modificarImagen{
+    cursor: pointer;
+}
+
+
+
+
+

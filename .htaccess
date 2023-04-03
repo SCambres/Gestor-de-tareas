@@ -1,0 +1,21 @@
+DirectoryIndex index.php
+
+RewriteEngine on
+
+Options +FollowSymLinks -MultiViews
+
+RewriteRule ^wellcome/?$ index.php?ctrl=wellcome
+
+RewriteRule ^proyectos/?$ index.php?ctrl=proyectos
+
+RewriteRule ^registro/?$ index.php?ctrl=registro
+
+RewriteRule ^crearTarea/?$ index.php?ctrl=creartarea
+
+RewriteRule ^asignarTarea/?$ index.php?ctrl=asignartarea
+
+RewriteRule ^perfil/(.*)/$ index.php?ctrl=perfil&perfil=$1
+
+RewriteRule ^logout/([0-9]*)/?$ index.php?ctrl=logout
+
+RewriteRule ^login/?$ index.php?ctrl=login
